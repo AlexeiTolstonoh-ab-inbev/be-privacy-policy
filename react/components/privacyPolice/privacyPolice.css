@@ -18,10 +18,9 @@ ul { list-style: none; }
     width: 100%;
     font-weight: 500;
     letter-spacing: 4px;
-    color: #8f1e2a;
-    font-size: 3.2em;
-    font-family: SackersGothicStd-Light;
-    margin-bottom: 2rem;
+    color: black;
+    font-size: 2.2em;
+    margin-bottom: 1rem;
 }
 ul{
     width: 100%;
@@ -38,7 +37,16 @@ li{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.optionContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 @media screen and ( min-width: 1026px ) {
+    .optionContainer{
+        justify-content: flex-end;
+        padding: 50px
+    }
     .listWrapper{
         justify-content: center;
     }
@@ -46,7 +54,11 @@ li{
         max-width: 23%;
     }
     .listContainer{
-        max-width: 67%;
+        max-width: 90%;
         padding: 20px;
+    }
+    .langChooser{
+        margin-right: 20px;
+        align-self: flex-end;
     }
 }
