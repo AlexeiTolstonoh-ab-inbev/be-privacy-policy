@@ -3,7 +3,6 @@ import style from './../privacyPolice/privacyPolice.css'
 
 const NlTranslate = () => {
     return (
-        <div>
             <div className={style.listWrapper}>
                 <div className={style.listContainer}>
                     <section className={style.textContainer}>
@@ -49,12 +48,16 @@ const NlTranslate = () => {
                             <p>Voor "Strikt noodzakelijke cookies" verwerken wij uw persoonsgegevens volgens Art. 6 (1) (f) AVG voor de legitieme doeleinden die in de titel hieronder worden uitgelegd.</p>
                             <p>Met betrekking tot "Prestatiecookies", "Functionele cookies" en "Targeting cookies", verwerken wij uw persoonsgegevens op basis van uw toestemming volgens Art. 6 (1) (a) AVG voor de hieronder uiteengezette doeleinden. Uw toestemming wordt verzameld en geregistreerd na de selectie van uw cookie-voorkeuren in onze cookie-banner.</p>
                             <p>Als u uw cookievoorkeuren wilt wijzigen, gaat u naar "cookie-instellingen" aan het einde van het gedeelte "cookies" van dit privacybeleid.</p>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
+                        <div id="ot-sdk-cookie-policy"></div>
                     </section>
 
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Technologieën voor het volgen van de website </h4>
                             <p>Geïntegreerd in deze website zijn doelgerichte reclametools. Deze cookies kunnen via onze site worden geplaatst door onze reclamepartners. Ze kunnen door die bedrijven worden gebruikt om een profiel van uw interesses op te bouwen en u relevante advertenties op andere sites te tonen. Ze slaan geen directe persoonlijke informatie op, maar zijn gebaseerd op een unieke identificatie van uw browser en internetapparaat. Als u deze cookies niet toestaat, zult u minder gerichte reclame ervaren.</p>
-                            <p>Cookies en andere gebruikte technologieën: [INCLUDE OT COOKIE BANNER DYNAMIC TABLE]</p>
+                            <p>Cookies en andere gebruikte technologieën:</p>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
+                        <div id="ot-sdk-cookie-policy"></div>
                             <p>Deze tool maakt gebruik van cookies en soortgelijke technologieën en stelt ons in staat om het gebruik van onze website door de bezoeker te analyseren. Voor dit doel wordt de gegenereerde informatie in de cookie (inclusief uw IP-adres) naar ons gestuurd en opgeslagen om ons in staat te stellen het gebruik van onze website te optimaliseren en/of u te voorzien van op uw interesses afgestemde advertenties.</p>
                             <p>U kunt uw toestemming intrekken door hier uw voorkeuren bij te werken.</p>
                             <p>Wij verwerken uw persoonsgegevens op basis van uw toestemming op grond van Art. 6 (1) (a) AVG voor de hierboven beschreven doeleinden. Na het selecteren van uw cookie-voorkeuren wordt uw toestemming verkregen en geregistreerd via onze cookie-banner. De persoonsgegevens worden gewist wanneer ze niet langer nodig zijn voor het oorspronkelijke doel of nadat u uw toestemming heeft ingetrokken. U kunt het gebruik van targeting cookies en soortgelijke technologieën uitsluiten door de juiste instellingen in uw browser of in de "cookie-instellingen" te selecteren. Houd er rekening mee dat het in dit geval kan voorkomen dat u niet alle functies van deze website kunt gebruiken. Afhankelijk van de browser die u gebruikt, kunt u ook een browser-plug-in installeren om tracking te voorkomen.</p>
@@ -76,7 +79,7 @@ const NlTranslate = () => {
                         <h4 className = {style.titleContainer}>Klantgegevens platform of Customer Data Platform</h4>
                         <p>Onze website heeft een Customer Data Platform (CDP). Ons doel bij het gebruik van CDP is om ervoor te zorgen dat u op onze websites en ook op externe sites die u bezoekt, reclamecontent ontvangt die is afgestemd op uw interesses. Een CDP is een reclametechnologie die automatisch publiekssegmenten creëert om het beste van onze campagnes met u en andere bierliefhebbers te delen. Ons CDP analyseert en categoriseert automatisch gegevens die afkomstig zijn van verschillende bronnen, bijvoorbeeld andere sites en andere websitegebruikers.</p>
                             <p>We zullen uw persoonsgegevens alleen verwerken nadat u ons uw toestemming hebt gegeven, in overeenstemming met Art. 6 (1) (a) AVG. U zult geen nadeel ondervinden als u niet instemt met deze bewerking.</p>
-                            <p>Zodra uw toestemming is gegeven, zal onze CDP uw gegevens gaan verwerken en deze zullen worden gedeeld met andere zakelijke partners van ARM Treasure Data met behulp van dezelfde tool. De gegevensbeheerder voor deze operatie is Treasure Data, Inc. dus hou er rekening mee dat AB InBev geen controle heeft over met wie uw gegevens gedeeld worden, aangezien dit eenzijdig bepaald wordt door het CDP. Aangezien de technologie van een CDP zeer complex is en er verschillende belanghebbenden bij betrokken zijn, kunt u, indien u meer wilt weten over deze operatie, de informatie van de Treasure Data, Inc. raadplegen voor meer informatie.https://www.treasuredata.com/privacy/.</p>
+                            <p>Zodra uw toestemming is gegeven, zal onze CDP uw gegevens gaan verwerken en deze zullen worden gedeeld met andere zakelijke partners van ARM Treasure Data met behulp van dezelfde tool. De gegevensbeheerder voor deze operatie is Treasure Data, Inc. dus hou er rekening mee dat AB InBev geen controle heeft over met wie uw gegevens gedeeld worden, aangezien dit eenzijdig bepaald wordt door het CDP. Aangezien de technologie van een CDP zeer complex is en er verschillende belanghebbenden bij betrokken zijn, kunt u, indien u meer wilt weten over deze operatie, de informatie van de <a href={"https://www.treasuredata.com/privacy/"}>Treasure Data, Inc.</a> raadplegen voor meer informatie..</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -88,7 +91,7 @@ const NlTranslate = () => {
 
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Kaart</h4>
-                        <p>Wanneer u de kaartfunctie gebruikt, kunnen wij niet uitsluiten dat informatie over uw gebruik (met name het IP-adres van uw computer) wordt doorgegeven aan de OpenStreetMap Foundation (OSMF). Wij hebben geen invloed op de gegevensverwerking door de OSMF. Uw gegevens worden alleen aan de aanbieder doorgegeven indien u daarmee instemt overeenkomstig Art. 6 (1) a GDPR. Indien u niet instemt met de verwerking van gegevens door OSMF, verzoeken wij u niet in te stemmen met de activering van de kaarten. Om de verwerking van uw persoonsgegevens stop te zetten, gelieve java scripts in uw browser te deactiveren of cookies in uw browser te verwijderen. Voor meer informatie over deze operatie kunt u de informatie raadplegen die door de OSMF wordt verstrekt https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction.</p>
+                        <p>Wanneer u de kaartfunctie gebruikt, kunnen wij niet uitsluiten dat informatie over uw gebruik (met name het IP-adres van uw computer) wordt doorgegeven aan de OpenStreetMap Foundation (OSMF). Wij hebben geen invloed op de gegevensverwerking door de OSMF. Uw gegevens worden alleen aan de aanbieder doorgegeven indien u daarmee instemt overeenkomstig Art. 6 (1) a GDPR. Indien u niet instemt met de verwerking van gegevens door OSMF, verzoeken wij u niet in te stemmen met de activering van de kaarten. Om de verwerking van uw persoonsgegevens stop te zetten, gelieve java scripts in uw browser te deactiveren of cookies in uw browser te verwijderen. Voor meer informatie over deze operatie kunt u de informatie raadplegen die door de <a href={"https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction"}>OSMF</a> wordt verstrekt .</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -171,7 +174,6 @@ const NlTranslate = () => {
                     </section>
                 </div>
             </div>
-        </div>
     )
 }
 export default NlTranslate

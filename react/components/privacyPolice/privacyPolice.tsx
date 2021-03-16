@@ -9,7 +9,6 @@ const PrivacyPolice = () => {
 		setLanguage(evt.target.value)
 	}
 	return (
-		<div>
 			<div className={style.listWrapper}>
 				<div className={style.optionContainer}>
 				<select className={style.langChooser} onChange={optionChange}>
@@ -20,9 +19,7 @@ const PrivacyPolice = () => {
 				</select>
 				</div>
 				{langueage === 'en' ? <EnTranslate/> : langueage === 'fr' ? <FrTranslate/> : <NlTranslate/>}
-
 			</div>
-		</div>
 	)
 }
 export default PrivacyPolice

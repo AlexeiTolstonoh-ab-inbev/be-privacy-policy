@@ -3,7 +3,6 @@ import style from './../privacyPolice/privacyPolice.css'
 
 const EnTranslate = () => {
     return (
-        <div>
             <div className={style.listWrapper}>
                 <div className={style.listContainer}>
                     <section className={style.textContainer}>
@@ -115,8 +114,8 @@ const EnTranslate = () => {
                             banner.</p>
                         <p>In case you would like to change your cookies preferences, please go to
                             "cookie settings" at the end of the "cookies" section of this privacy policy.”</p>
-                        {/*<div id="ot-sdk-cookie-policy"></div>*/}
-                        {/*<button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>*/}
+                        <div id="ot-sdk-cookie-policy"></div>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
                     </section>
 
                     <section>
@@ -129,7 +128,8 @@ const EnTranslate = () => {
                             cookies, you will experience less targeted advertising.</p>
                         <p>Cookies and other technologies
                             used:</p>
-                            <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookies Settings</button>
+                        <div id="ot-sdk-cookie-policy"></div>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
                             <p>This tool use cookies and similar technologies and enable us to analyze the visitor’s use
                                 of our website. For this purpose, the generated information in the cookie (including
                                 your IP-address) is sent to us and stored to enable us to optimize the use of our
@@ -170,8 +170,8 @@ const EnTranslate = () => {
                             such as publishers, marketing data providers and business partners. Salesforce.com,Inc. is
                             another data controller who carries out data processing upon whom we however have only
                             limited influence. In case you would like to know more about this technology please review
-                            the information provided by the Salesforce.com, Inc. for further guidance.
-                            https://www.salesforce.com/products/marketing-cloud/sfmc/audience-studio-privacy/</p></div>
+                            the information provided by the <a href={"https://www.salesforce.com/products/marketing-cloud/sfmc/audience-studio-privacy/"}>Salesforce.com</a>, Inc. for further guidance.
+                            </p></div>
                     </section>
                     <section>
                         <h4 className = {style.titleContainer}>Customer Data Platform</h4>
@@ -298,28 +298,21 @@ const EnTranslate = () => {
                             be erased when they are no longer necessary for the original purpose (replying to your
                             raised questions and comments).</p><p>We will deal with complaints as follows:</p>
                             <p>Step 1: Let us know if you would like to make a complaint by contacting our Data
-                                Protection Officer (DPO).</p><p>Step 2: Investigation of complaint: Your
+                                Protection Officer (DPO).</p>
+                            <p>Step 2: Investigation of complaint: Your
                                 complaint will be investigated by our DPO. A response to your complaint will be provided
                                 in writing within a reasonable period (one month in principle, but we may inform you
-                                should we need more time to process your request).</p><p>Step 3: Contact Data
+                                should we need more time to process your request).</p>
+                            <p>Step 3: Contact Data
                                 Protection Authority: We expect that our procedures will deal fairly and promptly with
                                 your complaint. However, if you remain dissatisfied, you may also contact the Data
                                 Protection Authorities.</p>
-                            <p>Gegevensbeschermingsautoriteit<br>
-                            </br>Drukpersstraat 35, 1000 Brussel</p>
-                            <p> +32 (0)2 274 48 00
-                                <br></br>
-                                +32 (0)2 274 48 35
-                                <br></br>
-                               contact(at)apd-gba.be</p>
-                            <p>https://www.gegevensbeschermingsautoriteit.be/</p>
-                            <p>Veuillez nous envoyer vos plaintes
-                                par écrit aux canaux suivants :</p>
-                            <p>consumer.helpline@ab-inbev.com.</p>
-                            <p>FIRST
-                                PRIVACY GmbH<br></br>(DPO Name: Peter Suhren)<br></br>Konsul-Smidt-Straße 88<br></br>28217 Bremen<br></br>Germany<br></br>Tel.:
-                                +49 (0) 421 69 66 32 80<br></br>Fax: +49 (0) 421 69 66 32 81<br></br>email:
-                                        abi-team@first-privacy.com</p>
+                        <p>[INCLUDE DATA OF THE RELEVANT DPA AND LINK TO WEBSITE] .
+                            <br></br>
+                            Please send us your complaints in writing form to the following  channels:
+                            <br></br>
+                            [Include country specific Consumer Department] at: Hello@Danny.Delivery.
+                        </p>
                             <p>Foer the purpose of processing your
                                 request or complaints, we are processing your personal data according to Art. 6 (1) (b)
                                 GDPR. The personal data will be erased when they are no longer necessary for the
@@ -333,7 +326,6 @@ const EnTranslate = () => {
                     </section>
                 </div>
             </div>
-        </div>
     )
 }
 export default EnTranslate

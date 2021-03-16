@@ -3,7 +3,6 @@ import style from './../privacyPolice/privacyPolice.css'
 
 const FrTranslate = () => {
     return (
-        <div>
             <div className={style.listWrapper}>
                 <div className={style.listContainer}>
                     <section className={style.textContainer}>
@@ -46,11 +45,16 @@ const FrTranslate = () => {
                             <p>En ce qui concerne les "cookies strictement nécessaires", nous traitons vos données personnelles conformément à l'art. 6 (1) (f) GDPR aux fins légitimes expliquées dans le titre ci-dessous.</p>
                             <p>En ce qui concerne les "Performance Cookies", "Cookies fonctionnelles" et "Ciblage des cookies", nous traitons vos données personnelles sur la base de votre consentement conformément à l'article 6, paragraphe 1, point f), de la GDPR. 6 (1) (a) GDPR aux fins expliquées ci-dessous. Votre consentement est recueilli et enregistré après la sélection de vos préférences en matière de cookies dans notre bannière de cookies.</p>
                             <p> Si vous souhaitez modifier vos préférences en matière de cookies, veuillez-vous rendre à la rubrique "paramètres des cookies" à la fin de la section "cookies" de la présente politique de confidentialité".</p>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
+                        <div id="ot-sdk-cookie-policy"></div>
                     </section>
 
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Les technologies de suivi des sites web</h4>
                         <p>Des outils publicitaires ciblés sont intégrés à ce site web. Ces cookies peuvent être placés sur notre site par nos partenaires publicitaires. Ils peuvent être utilisés par ces entreprises pour établir un profil de vos intérêts et vous montrer des publicités pertinentes sur d'autres sites. Ils ne stockent pas directement d'informations personnelles, mais sont basés sur l'identification unique de votre navigateur et de votre appareil Internet. Si vous n'autorisez pas ces cookies, vous serez confronté à des publicités moins ciblées.</p>
+                        <p>Cookies et autres technologies utilisées:</p>
+                        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
+                        <div id="ot-sdk-cookie-policy"></div>
                         <p>Cet outil utilise des cookies et des technologies similaires et nous permet d'analyser l'utilisation que le visiteur fait de notre site web. À cette fin, les informations générées dans le cookie (y compris votre adresse IP) nous sont envoyées et stockées pour nous permettre d'optimiser l'utilisation de notre site web et/ou de vous fournir des publicités adaptées à vos intérêts.</p>
                         <p>Vous pouvez retirer votre consentement en mettant à jour vos préférences ici .</p>
                         <p>Nous traitons vos données personnelles sur la base de votre consentement conformément à l'article 6 (1) (a) GDPR aux fins expliquées ci-dessus. Après avoir sélectionné vos préférences en matière de cookies, votre consentement sera obtenu et enregistré via notre bannière de cookies. Les données à caractère personnel seront effacées lorsqu'elles ne seront plus nécessaires pour la finalité initiale ou après que vous aurez retiré votre consentement. Vous pouvez empêcher l'utilisation de cookies ciblés et de technologies similaires en sélectionnant les paramètres appropriés dans votre navigateur ou dans les "paramètres des cookies". Sachez que dans ce cas, il peut arriver que vous ne puissiez pas utiliser toutes les fonctions de ce site web. Selon le navigateur que vous utilisez, vous pouvez également installer un plug-in de navigateur pour empêcher le suivi.</p>
@@ -65,9 +69,8 @@ const FrTranslate = () => {
                         <h4 className = {style.titleContainer}>Plateformes de gestion des données</h4>
                         <p>Vos données peuvent être collectées, traitées et stockées dans notre plate-forme de gestion des données (DMP) exploitée par Salesforce.com, Inc. L'utilisation de la DMP a pour but de garantir que vous recevez des publicités adaptées à vos intérêts sur notre site et sur les autres sites que vous visitez. Un DMP est une technologie publicitaire qui crée automatiquement des segments d'audience pour partager le meilleur de nos campagnes. Un DMP utilise des technologies de cookies et de non-cookie pour reconnaître votre ordinateur ou votre appareil et/ou pour collecter et enregistrer des informations sur votre activité de navigation sur le web, y compris vos activités sur ou hors de ce site. Le DMP analyse et catégorise automatiquement les données provenant de différentes sources, par exemple d'autres sites et d'autres amateurs de bière. </p>
                         <p>Nous ne traiterons vos données personnelles à cette fin qu'après que vous nous ayez donné votre consentement, conformément à l'art. 6 (1) (a) de la GDPR. Vous ne subirez aucun préjudice si vous souhaitez que vos données ne soient pas envoyées à un ou à tous les fournisseurs de DMP. Vous pouvez retirer votre consentement sur la bannière des cookies.</p>
-                        <p>Après votre consentement à cette opération, notre DMP commencera à traiter vos données et celles-ci seront partagées avec d'autres parties telles que les éditeurs, les fournisseurs de données marketing et les partenaires commerciaux. Salesforce.com,Inc. est un autre responsable du traitement des données sur lequel nous n'avons cependant qu'une influence limitée. Si vous souhaitez en savoir plus sur cette technologie, veuillez consulter les informations fournies par Salesforce.com, Inc. pour obtenir des conseils supplémentaires.<a href={"https://www.salesforce.com/products/marketing-cloud/sfmc/audience-studio-privacy/"}>https://www.salesforce.com/products/marketing-cloud/sfmc/audience-studio-privacy/</a></p>
+                        <p>Après votre consentement à cette opération, notre DMP commencera à traiter vos données et celles-ci seront partagées avec d'autres parties telles que les éditeurs, les fournisseurs de données marketing et les partenaires commerciaux. Salesforce.com,Inc. est un autre responsable du traitement des données sur lequel nous n'avons cependant qu'une influence limitée. Si vous souhaitez en savoir plus sur cette technologie, veuillez consulter les informations fournies par <a href={"https://www.salesforce.com/products/marketing-cloud/sfmc/audience-studio-privacy/"}>Salesforce.com, Inc.</a> pour obtenir des conseils supplémentaires.</p>
                     </section>
-
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Plateforme des données clients</h4>
                         <p>Notre site web dispose d'une plate-forme de données clients (CDP). Notre objectif, en utilisant la CDP, est de nous assurer que vous recevez un contenu publicitaire adapté à vos intérêts sur nos sites web et également sur les sites externes que vous visitez. Une CDP est une technologie publicitaire qui crée automatiquement des segments d'audience pour partager le meilleur de nos campagnes avec vous et d'autres amateurs de bière. Notre CDP analyse et catégorise automatiquement les données provenant de différentes sources, par exemple, d'autres sites et d'autres utilisateurs de sites web. </p>
@@ -77,7 +80,7 @@ const FrTranslate = () => {
 
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Carte</h4>
-                        <p>Lorsque vous utilisez la fonction Carte, nous ne pouvons pas exclure que des informations sur votre utilisation (en particulier l'adresse IP de votre ordinateur) puissent être transférées à la OpenStreetMap Foundation (OSMF). Nous n'avons aucune influence sur le traitement des données effectué par l'OSMF. Vos données ne seront transférées au fournisseur que si vous y consentez, conformément à l'art. 6 (1) a GDPR. Si vous n'êtes pas d'accord avec le traitement des données par l'OSMF, veuillez ne pas accepter l'activation des cartes. Pour arrêter le traitement de vos données personnelles, veuillez désactiver les scripts java dans votre navigateur ou supprimer les cookies dans votre navigateur. Si vous souhaitez en savoir plus sur cette opération, veuillez consulter les informations fournies par l'OSMF <a href={"https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction"}>https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction</a>.</p>
+                        <p>Lorsque vous utilisez la fonction Carte, nous ne pouvons pas exclure que des informations sur votre utilisation (en particulier l'adresse IP de votre ordinateur) puissent être transférées à la OpenStreetMap Foundation (OSMF). Nous n'avons aucune influence sur le traitement des données effectué par l'OSMF. Vos données ne seront transférées au fournisseur que si vous y consentez, conformément à l'art. 6 (1) a GDPR. Si vous n'êtes pas d'accord avec le traitement des données par l'OSMF, veuillez ne pas accepter l'activation des cartes. Pour arrêter le traitement de vos données personnelles, veuillez désactiver les scripts java dans votre navigateur ou supprimer les cookies dans votre navigateur. Si vous souhaitez en savoir plus sur cette opération, veuillez consulter les informations fournies par<a href={"https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction"}>l'OSMF </a></p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -158,7 +161,6 @@ const FrTranslate = () => {
 
                 </div>
             </div>
-        </div>
     )
 }
 export default FrTranslate
