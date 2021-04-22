@@ -7,13 +7,12 @@ const FrTranslate = () => {
                 <div className={style.listContainer}>
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Introduction</h4>
-                        <p>Cher visiteur, nous vous remercions de votre visite sur notre site web. Cette politique de confidentialité est destinée à vous informer sur la manière dont nous recueillons, utilisons et transférons vos données personnelles.</p>
+                        <p>Cher visiteur, nous vous remercions de votre visite sur notre site web. Cette politique de confidentialité est destinée à vous informer sur la manière dont nous recueillons, utilisons et transférons vos données personnelles sur ce site web.</p>
                         <p>Cette politique de confidentialité est structurée en plusieurs niveaux. Si vous êtes intéressé par une certaine section, veuillez ouvrir le titre correspondant.</p>
                         <p>Mentions Légales- Dénomination ou raison sociale : InBev Blegium B.V./S.R.L.</p>
-                        <p>- Siège social & l'adresse du siége : Industrielaan 21, Boulevard Industriel, 1070 Anderlecht </p>
-                        <p>- Numéro de téléphone : 016 27 61 11</p>
-                        <p>- Email : https://contactus.ab-inbev.com</p>
-                        <p>- Numéro d’entreprise : 0433.666.709 </p>
+                        <p>- Siège social & l'adresse du siége : Industrielaan 21, Boulevard Industriel, 1070 Anderlecht</p>
+                        <p>- Numéro de téléphone : 016 27 61 11; email https://contactus.ab-inbev.com</p>
+                        <p>- Numéro d’entreprise : 0433.666.709</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -26,7 +25,7 @@ const FrTranslate = () => {
                         <p>5. par les informations que vous nous fournissez dans des commentaires, suggestions ou autres informations relatives à notre site web, nos produits ou services. Nous pouvons vous demander certaines informations, par exemple votre nom, votre âge, votre adresse, votre ville, votre code postal, votre numéro de téléphone portable et/ou votre adresse électronique. Nous vous offrons la possibilité de créer un compte et de l'utiliser au sein d'AB InBev, car nous continuons à travailler pour être la meilleure entreprise de bière dans un monde meilleur (cette utilisation ne concerne que vos commentaires ou suggestions) </p>
                         <p>6. d'autres types d'informations spécifiques peuvent être demandés en relation avec les achats, les réclamations sur les produits et la création d'un compte. Nous utilisons ces données pour exécuter votre commande, y compris l'expédition et le paiement, et pour nous conformer à nos obligations légales, par exemple pour tenir une comptabilité financière correcte</p>
                         <p>L'entité mentionnée sous la mention d'impression et ses agents ne conserveront vos informations personnelles qu'aussi longtemps que nécessaire pour la réalisation des objectifs décrits ci-dessus ou que la loi l'exige. </p>
-                        <p>Dans la majorité des cas, nous avons traité votre base de données personnelles avec votre consentement, conformément à l'article 6, paragraphe 1, point a), du règlement général sur la protection des données (GDPR). Dans des cas très spécifiques, comme détaillé ci-dessous, le traitement de vos données personnelles est basé sur l'intérêt légitime d'AB InBev sur la base de l'article 6 (1) (f) du GDPR. </p>
+                        <p>Dans la plupart des cas, nous avons traité votre base de données personnelles avec votre consentement, conformément à l'article 6, paragraphe 1, point a), du règlement général sur la protection des données (GDPR). Dans des cas très spécifiques, comme détaillé ci-dessous, le traitement de vos données personnelles est basé sur l'intérêt légitime d'AB InBev sur la base de l'article 6 (1) (f) du GDPR.</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -44,7 +43,7 @@ const FrTranslate = () => {
                             <p>Ce site web a mis en place différentes catégories de cookies et de technologies similaires, comme indiqué dans le tableau suivant. </p>
                             <p>En ce qui concerne les "cookies strictement nécessaires", nous traitons vos données personnelles conformément à l'art. 6 (1) (f) GDPR aux fins légitimes expliquées dans le titre ci-dessous.</p>
                             <p>En ce qui concerne les "Performance Cookies", "Cookies fonctionnelles" et "Ciblage des cookies", nous traitons vos données personnelles sur la base de votre consentement conformément à l'article 6, paragraphe 1, point f), de la GDPR. 6 (1) (a) GDPR aux fins expliquées ci-dessous. Votre consentement est recueilli et enregistré après la sélection de vos préférences en matière de cookies dans notre bannière de cookies.</p>
-                            <p> Si vous souhaitez modifier vos préférences en matière de cookies, veuillez-vous rendre à la rubrique "paramètres des cookies" à la fin de la section "cookies" de la présente politique de confidentialité".</p>
+                            <p> Si vous souhaitez modifier vos préférences en matière de cookies, veuillez vous rendre à la rubrique "paramètres des cookies" à la fin de la section "cookies" de la présente politique de confidentialité".</p>
                         <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
                         <div id="ot-sdk-cookie-policy"></div>
                     </section>
@@ -80,7 +79,7 @@ const FrTranslate = () => {
 
                     <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Carte</h4>
-                        <p>Lorsque vous utilisez la fonction Carte, nous ne pouvons pas exclure que des informations sur votre utilisation (en particulier l'adresse IP de votre ordinateur) puissent être transférées à la OpenStreetMap Foundation (OSMF). Nous n'avons aucune influence sur le traitement des données effectué par l'OSMF. Vos données ne seront transférées au fournisseur que si vous y consentez, conformément à l'art. 6 (1) a GDPR. Si vous n'êtes pas d'accord avec le traitement des données par l'OSMF, veuillez ne pas accepter l'activation des cartes. Pour arrêter le traitement de vos données personnelles, veuillez désactiver les scripts java dans votre navigateur ou supprimer les cookies dans votre navigateur. Si vous souhaitez en savoir plus sur cette opération, veuillez consulter les informations fournies par<a href={"https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction"}>l'OSMF </a></p>
+                        <p>Lorsque vous utilisez la fonction Carte, nous ne pouvons pas exclure que des informations sur votre utilisation (en particulier l'adresse IP de votre ordinateur) puissent être transférées à la OpenStreetMap Foundation (OSMF). Nous n'avons aucune influence sur le traitement des données effectué par l'OSMF. Vos données ne seront transférées au fournisseur que si vous y consentez, conformément à l'art. 6 (1) a GDPR. Si vous n'êtes pas d'accord avec le traitement des données par l'OSMF, veuillez ne pas accepter l'activation des cartes. Pour arrêter le traitement de vos données personnelles, veuillez désactiver les scripts java dans votre navigateur ou supprimer les cookies dans votre navigateur. Si vous souhaitez en savoir plus sur cette opération, veuillez consulter les informations fournies par l'OSMF https://wiki.osmfoundation.org/wiki/Privacy_Policy#Introduction .</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -119,7 +118,7 @@ const FrTranslate = () => {
                         <p>Les informations personnelles sont envoyées à l'étranger dans des circonstances limitées à d'autres filiales de notre groupe dont la société mère est la société belge, ANHEUSER-BUSCH INBEV S.A./N.V. avec le numéro d'enregistrement 0417.497.106, pour fournir des services d'hébergement et des services de soutien au sein du groupe. AB InBev n'enverra pas vos informations personnelles à un destinataire en dehors de l'UE / de l'EEE sans avoir obtenu votre consentement ou sans se conformer à la législation applicable en matière de protection de la vie privée.</p>
                         <p>Boutique en ligne</p>
                         <p>Pour pouvoir passer une commande, vous devez vous inscrire sur notre site web. Nous ne collectons pas plus de données personnelles que nécessaire. Les données personnelles que vous fournissez lors de votre inscription ou lors de la passation d'une commande ne seront utilisées que pour le traitement de vos commandes, conformément à l'art. 6, al. 1, let. b, LGE. Nous n'utilisons pas vos données à des fins de marketing ou autres, à moins que vous n'ayez expressément opté pour cela.</p>
-                        <p>[Adyen] gère le processus de paiement, y compris le traitement de vos coordonnées bancaires, sur notre site web. Pour compléter le processus de paiement, nous avons intégré un script sur notre site Internet mis à disposition par Adyen. Adyen traite vos données dans son rôle de sous-traitant avec lequel on a mis en place tous les accords comme prévu par le RGPD.</p>
+                        <p>[Ayden] gère le processus de paiement, y compris le traitement de vos coordonnées bancaires, sur notre site web. Pour compléter le processus de paiement, nous avons intégré un script sur notre site Internet mis à disposition par Ayden. Ayden traite vos données dans son rôle de sous-traitant avec lequel on a mis en place tous les accords comme prévu par le RGPD.</p>
                     </section>
 
                     <section className={style.textContainer}>
@@ -135,7 +134,7 @@ const FrTranslate = () => {
                         <p>Étape 1 : Faites-nous savoir si vous souhaitez déposer une plainte en contactant notre délégué à la protection des données (DPD).</p>
                         <p>Étape 2 : Enquête sur la plainte :  Votre plainte sera examinée par notre délégué à la protection des données. Une réponse à votre plainte sera fournie par écrit dans un délai raisonnable (un mois en principe, mais nous pouvons vous informer si nous avons besoin de plus de temps pour traiter votre demande).</p>
                         <p>Étape 3 : Contactez l'autorité de protection des données : Nous espérons que nos procédures traiteront votre plainte de manière équitable et rapide. Toutefois, si vous n'êtes toujours pas satisfait, vous pouvez également contacter les autorités de protection des données :</p>
-                        <p>egevensbeschermingsautoriteit</p>
+                        <p>Gegevensbeschermingsautoriteit</p>
                         <p>Drukpersstraat 35, 1000 Brussel</p>
                         <p>+32 (0)2 274 48 00</p>
                         <p>+32 (0)2 274 48 35</p>
