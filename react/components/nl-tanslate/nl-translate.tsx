@@ -109,6 +109,29 @@ const NlTranslate = () => {
                     </section>
 
                     <section className={style.textContainer}>
+                        <h4 className = {style.titleContainer}>Facebook Pixel</h4>
+                        <p>Een Facebook Pixel is een analytische tool die bestaat uit een code die is geïnstalleerd op onze website. Bij het bezoeken van sommige pagina’s of bijvoorbeeld bij het kopen van een product, wordt de Facebook Pixel getriggerd en verzamelt het informatie voor jouw Facebookgebruik (als je lid bent van Facebook). Deze technologie helpt ons om de juiste content en advertenties te laten zien en om het gebruikt van onze website te kunnen analyseren. De Facebook Pixel kan eventueel persoonlijke data van je verzamelen zoals:</p>
+
+                        <p>Welk besturingssysteem wordt gebruikt</p>
+
+                        <p>Het type website dat wordt gebruikt, bijvoorbeeld via mobiel of desktop</p>
+
+                        <p>Het type cliënt dat wordt gebruikt, bijvoorbeeld de internet browser of de e-mail provider</p>
+
+                        <p>De gebruikte schermresolutie</p>
+
+                        <p>Het tijdstip waarop de website wordt bezocht</p>
+
+                        <p>De activiteiten op de website tijdens het bezoek (in het geval er meerdere tracking pixels worden gebruikt)</p>
+
+                        <p>IP adres (geeft informatie over de internet provider en locatie)</p>
+
+                        <p>Jouw persoonlijke data zal niet worden gedeeld met derde partijen buiten Facebook en enkel worden gebruikt voor de hierboven beschreven doeleinden.</p>
+
+
+                    </section>
+
+                    <section className={style.textContainer}>
                         <h4 className = {style.titleContainer}>Beveiligingsmaatregelen</h4>
                         <p>Wij nemen technische en organisatorische maatregelen om uw gegevens zo goed mogelijk te beschermen. Naast de verplichting van onze medewerkers tot geheimhouding en een zorgvuldige selectie en controle van onze dienstverleners, beveiligen wij onze bedrijfsomgeving adequaat. Om uw gegevens te beschermen tegen ongewenste toegang maken wij gebruik van gegevenscodering. De gegevens die vanaf deze website worden verzameld, worden via het internet met behulp van gegevensversleutelingstechnologie tussen uw computer en onze server en vice versa doorgegeven. Als de verbinding gecodeerd is, wordt het “lock”-symbool in de statuslijst van uw browser als vergrendeld weergegeven en begint de adresregel met “https://”. Om uw gegevens tijdens het transport te beveiligen, gebruiken wij minimaal de TLS 1.2 standaard (Transport Layer Encryption standaard).</p>
                     </section>
@@ -169,8 +192,46 @@ const NlTranslate = () => {
                     </section>
 
                     <section className={style.textContainer}>
-                        <h4 className = {style.titleContainer}>Telefoongesprekopnames en privacy</h4>
-                        <p>AB InBev kan telefoongesprekken met haar callcenter opnemen om de bestellingen van klanten voor AB InBev producten te registreren, om klachten die daaruit voortvloeien op te lossen en voor kwaliteitscontroledoeleinden. Om onze Call Recording Privacy Policy te bekijken, klikt u hier: https://budweiserbrewinggroup.co.uk/call-recording-privacy/.</p>
+                        <h4 className = {style.titleContainer}> Privacy gespreksopname</h4>
+                        <p>InBev Belgium hecht veel belang aan de bescherming van uw persoonlijke gegevens. Dit privacybeleid voor persoonlijke gegevens is ontworpen om u te informeren over hoe wij uw persoonlijke gegevens verzamelen, gebruiken en overdragen.</p>
+
+                        <p>InBev Belgium BV (verder AB InBev) is verantwoordelijk voor het verzamelen en verwerken van uw persoonsgegevens.</p>
+
+                        <p>Doel van de verwerking</p>
+
+                        <p>AB InBev kan telefoongesprekken opnemen die met haar callcenter worden gevoerd om een overzicht te hebben van de bestellingen van klanten voor AB InBev-producten, om klachten die daaruit voortvloeien op te lossen en voor kwaliteitscontroledoeleinden. Voortvloeiend uit Art. 6 (1) (f) van de GDPR, heeft AB InBev een legitiem belang om te verzekeren dat haar producten en diensten vlot en gemakkelijk beschikbaar zijn voor haar klanten en om ook de kwaliteit van haar dienst(en) te handhaven. AB InBev zal enkel toegang hebben tot de opnames waarvan is vastgesteld dat er kwaliteitsproblemen waren, om de vastgestelde problemen op te lossen. AB InBev zal geen gebruik maken van de gespreksopnames voor andere doeleinden dan die vermeld in deze paragraaf.</p>
+
+                        <p>Verzamelde Informatie</p>
+
+                        <p>Bij deze activiteit kunnen wij de opname van uw gesprek, uw naam, telefoonnummer, adres en email adres verwerken.  Gelieve er rekening mee te houden dat de lijnen die beschikbaar zijn voor u om contact op te nemen met de AB InBev Customer Service Centers uitsluitend bestemd zijn voor zakengerelateerde zaken. Klanten wordt daarom aangeraden geen gevoelige gegevens of andere informatie die niet noodzakelijk is voor het doel van het telefoongesprek mee te delen. Indien klanten gevoelige gegevens of andere persoonlijke gegevens meedelen die niet noodzakelijk zijn voor het hier beschreven doel, zijn onze call center agenten opgeleid om dergelijke oproepen te beëindigen. Klanten die hun bestellingen niet via de telefoon willen plaatsen, kunnen dit doen op https://contactus.ab-InBev.com/en.</p>
+
+                        <p>Bewaartermijn:</p>
+
+                        <p>De gespreksopnamen worden gedurende een periode van 30 dagen bewaard, waarna ze automatisch worden gewist.</p>
+
+                        <p>Derde partijen</p>
+
+                        <p>De gesprekken worden opgenomen en opgeslagen door New Voice Media, [BL1] de gegevensverwerkers. New Voice Media zijn telefonie dienstverleners aangesteld door AB InBev. Op grond van de Algemene Verordening Gegevensbescherming (GDPR) heeft AB InBev een Data Transfer Agreement gesloten met New Voice Media. Beide partijen zijn ook passende technische en organisatorische maatregelen overeengekomen om de beveiliging van opgenomen gesprekken te waarborgen. Dezelfde contractuele relatie tussen AB InBev en New Voice Media bestaat tussen New Voice Media en de subverwerker die door New Voice Media is aangesteld om ondersteunende diensten te verlenen.</p>
+
+                        <p>Overdracht van gegevens</p>
+
+                        <p>New Voice Media, de gegevensverwerker, kan persoonsgegevens opslaan op servers buiten de EU/EER. Om de rechtmatigheid van de gegevensoverdracht te verzekeren, heeft AB InBev, onder andere, EU Standaard Contractuele Clausules gesloten volgens Art. 46 para. 2 lit. c GDPR met New Voice Media afgesloten.</p>
+
+                        <p>Toegang tot de gegevens:</p>
+
+                        <p>Enkel New Voice Media en Subverwerkers hebben toegang tot de gespreksopnames wanneer deze gespreksopnames voor de hierboven geïdentificeerde doeleinden worden gebruikt. AB InBev heeft geen directe toegang tot de gespreksopnames.</p>
+
+                        <p>Rechten van de betrokkene</p>
+
+                        <p>In overeenstemming met de GDPR hebben betrokkenen het recht om informatie over deze verwerkingsactiviteit op te vragen. Betrokkenen hebben ook het recht op rectificatie of wissing van hun persoonsgegevens, de beperking van de verwerking en de toegang tot hun persoonsgegevens. Om een van deze rechten uit te oefenen, kunt u contact opnemen met ABI via: Consumer.Helpline@ab-InBev.com. Indien u van mening bent dat uw gegevens niet in overeenstemming met de wet worden verwerkt, kunt u ook contact opnemen met de toezichthoudende autoriteiten voor gegevensbescherming.</p>
+
+                        <p>Contactgegevens van de functionaris voor gegevensbescherming:</p>
+
+                        <p>Voor vragen, opmerkingen of klachten kunt u contact opnemen met onze functionaris voor gegevensbescherming:</p>
+
+                        <p>First Privacy GmbH</p>
+                        <p>Web: https://www.first-privacy.com/</p>
+                        <p>E-mail: abi-team@first-privacy.com</p>
                     </section>
                 </div>
             </div>
